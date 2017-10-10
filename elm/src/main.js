@@ -3,13 +3,19 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from './App';
+import VueResource from 'vue-resource';
 
 // components
 import goods from 'components/goods/goods.vue';
 import ratings from 'components/ratings/ratings.vue';
 import seller from 'components/seller/seller.vue';
 
+// css
+import 'common/stylus/index.styl';
+
+// 全局注册
 Vue.use(VueRouter);
+Vue.use(VueResource);
 
 Vue.config.productionTip = false;
 
@@ -21,7 +27,8 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  routes
+  routes,
+  'linkActiveClass': 'active'
 });
 
 /* eslint-disable no-new */
