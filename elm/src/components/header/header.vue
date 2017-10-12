@@ -50,6 +50,7 @@
 
   .header
     position: relative
+    overflow: hidden
     color: #fff
     background: rgba(7, 17, 27, 0.5)
     .content-wrapper
@@ -160,6 +161,6 @@
       left: 0px
       z-index: -1
       width: 100%
-      height: 100%
-      filter: blur(18px)
+      height: auto
+      filter: blur(10px)
 </style>
