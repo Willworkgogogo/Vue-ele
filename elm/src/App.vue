@@ -18,7 +18,7 @@
 </template>
 
 <script>
-  import header from './components/header/header.vue';
+  import header from 'components/header/header.vue';
 
   const ERR_OK = 0;
 
@@ -44,7 +44,7 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  @import './common/stylus/mixin.styl'
+  @import 'common/stylus/mixin.styl'
 
 
   .tab
