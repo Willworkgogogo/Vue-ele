@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd3d5d40-e3a7-4060-a90e-392aa70e0dbe" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/brand@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/brand@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/bulletin@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/bulletin@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/decrease_1@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/decrease_1@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/decrease_2@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/decrease_2@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/discount_1@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/discount_1@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/discount_2@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/discount_2@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/guarantee_1@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/guarantee_1@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/guarantee_2@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/guarantee_2@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/invoice_1@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/invoice_1@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/invoice_2@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/invoice_2@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/special_1@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/special_1@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/special_2@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/img/special_2@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/header/header.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/App.vue" afterPath="$PROJECT_DIR$/elm/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/common/stylus/base.styl" afterPath="$PROJECT_DIR$/elm/src/common/stylus/base.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/header/header.vue" afterPath="$PROJECT_DIR$/elm/src/components/header/header.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -327,7 +350,7 @@
       <workItem from="1507651415954" duration="2806000" />
       <workItem from="1507733392391" duration="8255000" />
       <workItem from="1507775287024" duration="277000" />
-      <workItem from="1507817803075" duration="11563000" />
+      <workItem from="1507817803075" duration="11630000" />
     </task>
     <task id="LOCAL-00001" summary="nav">
       <created>1507548540263</created>
@@ -378,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507775726019</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="star组件">
+      <created>1507833401011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1507833401011</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38088000" />
+    <option name="totallyTimeSpent" value="38155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -420,7 +450,8 @@
     <MESSAGE value="props" />
     <MESSAGE value="header" />
     <MESSAGE value="blur 10px" />
-    <option name="LAST_COMMIT_MESSAGE" value="blur 10px" />
+    <MESSAGE value="star组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="star组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
