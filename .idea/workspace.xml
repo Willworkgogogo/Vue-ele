@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bd3d5d40-e3a7-4060-a90e-392aa70e0dbe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/App.vue" afterPath="$PROJECT_DIR$/elm/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/common/stylus/base.styl" afterPath="$PROJECT_DIR$/elm/src/common/stylus/base.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/common/stylus/mixin.styl" afterPath="$PROJECT_DIR$/elm/src/common/stylus/mixin.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/header/header.vue" afterPath="$PROJECT_DIR$/elm/src/components/header/header.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -338,7 +334,7 @@
       <workItem from="1507567100062" duration="1478000" />
       <workItem from="1507625829295" duration="5101000" />
       <workItem from="1507651415954" duration="2806000" />
-      <workItem from="1507733392391" duration="8198000" />
+      <workItem from="1507733392391" duration="8222000" />
     </task>
     <task id="LOCAL-00001" summary="nav">
       <created>1507548540263</created>
@@ -368,11 +364,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507685064735</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="header">
+      <created>1507771041355</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1507771041355</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26191000" />
+    <option name="totallyTimeSpent" value="26215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -408,7 +411,8 @@
     <MESSAGE value="router" />
     <MESSAGE value="webpack alias" />
     <MESSAGE value="props" />
-    <option name="LAST_COMMIT_MESSAGE" value="props" />
+    <MESSAGE value="header" />
+    <option name="LAST_COMMIT_MESSAGE" value="header" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
