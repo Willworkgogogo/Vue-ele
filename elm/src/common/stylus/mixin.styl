@@ -10,6 +10,11 @@ border-1px($color)
     border-top: 1px solid $color
     content: ' '
 
+border-none()
+  &:after
+    display: none
+
+
 // bg-image 根据dpr切换图片清晰度
 bg-image($url)
   background-image: url($url + "@2x.png")
