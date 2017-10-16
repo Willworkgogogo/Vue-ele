@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd3d5d40-e3a7-4060-a90e-392aa70e0dbe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/shopcart/shopcart.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elm/src/components/shopcart/shopcart.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/App.vue" afterPath="$PROJECT_DIR$/elm/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/goods/goods.vue" afterPath="$PROJECT_DIR$/elm/src/components/goods/goods.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -523,7 +519,7 @@
       <workItem from="1507817803075" duration="11847000" />
       <workItem from="1507911524251" duration="2048000" />
       <workItem from="1508085396120" duration="9142000" />
-      <workItem from="1508122836085" duration="16005000" />
+      <workItem from="1508122836085" duration="16040000" />
     </task>
     <task id="LOCAL-00001" summary="nav">
       <created>1507548540263</created>
@@ -609,11 +605,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508155556513</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="加减购物控件">
+      <created>1508155589771</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1508155589771</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65567000" />
+    <option name="totallyTimeSpent" value="65602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -675,7 +678,8 @@
     <MESSAGE value="label组件" />
     <MESSAGE value="goods 组件" />
     <MESSAGE value="底部购物车组件shopcart" />
-    <option name="LAST_COMMIT_MESSAGE" value="底部购物车组件shopcart" />
+    <MESSAGE value="加减购物控件" />
+    <option name="LAST_COMMIT_MESSAGE" value="加减购物控件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
