@@ -32,6 +32,8 @@
         } else {
           this.food.count++;
         }
+
+        this.$emit('cart.add', event.target);
       },
 
       // 减
@@ -59,8 +61,10 @@
       transition: all .4s linear
       transform: rotate(0)
     &.move-enter-active, &.move-leave-active
+      // 定义过程状态
       transition: all .4s linear
-    &.move-enter, &.move-leave-active
+    &.move-enter, &.move-leave-to
+      // 定义进入和离开状态
       opacity: 0
       transform: translate3d(24px, 0, 0)
       .inner

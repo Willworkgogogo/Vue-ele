@@ -15,6 +15,16 @@
         <div class="pay" :class="payClass">{{ payDesc }}</div>
       </div>
     </div>
+
+    <!--drop ball-->
+    <div class="ball-container">
+      <div v-for="ball in balls">
+        <div class="ball" v-show="ball.show">
+          <div class="inner"></div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -37,6 +47,27 @@
         type: Number,
         default: 0
       }
+    },
+    data() {
+      return {
+        balls: [
+          {
+            show: false
+          },
+          {
+            show: false
+          },
+          {
+            show: false
+          },
+          {
+            show: false
+          },
+          {
+            show: false
+          }
+        ]
+      };
     },
     computed: {
       // 总价
@@ -76,6 +107,11 @@
         } else {
           return '';
         }
+      }
+    },
+    methods: {
+      drop(el) {
+        console.log(el);
       }
     }
   };

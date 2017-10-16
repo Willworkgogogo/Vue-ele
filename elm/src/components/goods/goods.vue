@@ -41,6 +41,8 @@
       </ul>
     </div>
     <v-shopcart
+      ref="shopcart"
+      :selectFoods="selectFoods"
       :deliveryPrice="seller.deliveryPrice"
       :minPrice="seller.minPrice"
     ></v-shopcart>
@@ -92,6 +94,21 @@
             return i;
           }
         }
+      },
+
+      // 计算被选择的食物
+      selectFoods() {
+        let foods = [];
+        this.goods.forEach((good) => {
+          good.foods.forEach((food) => {
+            if (food.count) {
+              console.log(food);
+              foods.push(food);
+            }
+          });
+        });
+
+        return foods;
       }
     },
     methods: {
@@ -103,6 +120,9 @@
         let foodList = this.$refs.foodsWrapper.getElementsByClassName('food-list-hook');
         let el = foodList[index];
         this.foodsScroll.scrollToElement(el, 300);
+      },
+      _drop(target) {
+        this.$refs.shopcart.drop(target);
       },
       _initScroll: function() {
         this.menuScroll = new BScroll(this.$refs.menuWrapper, {
@@ -132,6 +152,11 @@
       'v-label': label,
       'v-shopcart': shopcart,
       'v-cartcontrol': cartcontrol
+    },
+    events: {
+      'cart.add'(target) {
+        this._drop(target);
+      }
     }
   };
 </script>
