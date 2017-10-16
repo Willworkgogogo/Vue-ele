@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bd3d5d40-e3a7-4060-a90e-392aa70e0dbe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/package.json" afterPath="$PROJECT_DIR$/elm/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/App.vue" afterPath="$PROJECT_DIR$/elm/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/common/stylus/mixin.styl" afterPath="$PROJECT_DIR$/elm/src/common/stylus/mixin.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/goods/goods.vue" afterPath="$PROJECT_DIR$/elm/src/components/goods/goods.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,72 +22,181 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="header.vue" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/elm/src/components/header/header.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2067">
+                  <caret line="100" column="19" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                    <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/elm/src/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="star.vue" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/elm/src/components/star/star.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="50">
+                  <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="goods.vue" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/elm/src/components/goods/goods.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="582">
+                  <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                    <element signature="e#1793#1840#0" expanded="true" />
+                    <element signature="e#2059#2111#0" expanded="false" />
+                    <element signature="e#2124#2217#0" expanded="false" />
+                    <element signature="e#2233#2605#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="shopcart.vue" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/elm/src/components/shopcart/shopcart.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="319">
+                  <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cartcontrol.vue" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/elm/src/components/cartcontrol/cartcontrol.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="50">
+                  <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="vue.d.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/elm/node_modules/vue/types/vue.d.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="267">
+                  <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.styl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/elm/src/common/stylus/index.styl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="icon.styl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/elm/src/common/stylus/icon.styl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="250">
+                  <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
         <splitter split-orientation="vertical" split-proportion="0.5">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="header.vue" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/elm/src/components/header/header.vue">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="73">
-                      <caret line="100" column="19" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
-                      <folding>
-                        <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                        <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
-                      </folding>
-                    </state>
+              <file leaf-file-name="外卖02_商品页_公告及优惠信息_spec.png" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖02_商品页_公告及优惠信息_spec.png">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="header.styl" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/elm/src/components/header/header.styl">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="2475">
-                      <caret line="160" column="10" lean-forward="false" selection-start-line="160" selection-start-column="10" selection-end-line="177" selection-end-column="41" />
-                      <folding>
-                        <element signature="e#207#316#0" expanded="false" />
-                        <element signature="e#401#737#0" expanded="false" />
-                        <element signature="e#1892#2582#0" expanded="false" />
-                        <element signature="e#2601#2719#0" expanded="false" />
-                        <element signature="e#3369#3673#0" expanded="false" />
-                        <element signature="e#3882#4422#0" expanded="false" />
-                      </folding>
-                    </state>
+              <file leaf-file-name="外卖03_商品页_购物车详情_spec.png" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖03_商品页_购物车详情_spec.png">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/elm/src/main.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="0">
-                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding>
-                        <element signature="n#!!doc" expanded="true" />
-                      </folding>
-                    </state>
+              <file leaf-file-name="外卖01_商品页_spec.png" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖01_商品页_spec.png">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="star.vue" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/elm/src/components/star/star.vue">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="50">
-                      <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-                      <folding />
-                    </state>
+              <file leaf-file-name="外卖03_商品页_购物车详情.jpg" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/resource/外卖03_商品页_购物车详情.jpg">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="goods.vue" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/elm/src/components/goods/goods.vue">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="125">
-                      <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-                      <folding>
-                        <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                        <element signature="n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                        <element signature="e#1428#1475#0" expanded="true" />
-                      </folding>
-                    </state>
+              <file leaf-file-name="外卖01_商品页.jpg" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/resource/外卖01_商品页.jpg">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="外卖04_商品页面_商品详情.jpg" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/resource/外卖04_商品页面_商品详情.jpg">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="外卖05_评价页.jpg" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/resource/外卖05_评价页.jpg">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="外卖06_商家页.jpg" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/resource/外卖06_商家页.jpg">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="外卖02_商品页_公告及优惠信息.jpg" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/resource/外卖02_商品页_公告及优惠信息.jpg">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="外卖06_商家页_spec.png" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖06_商家页_spec.png">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
                   </provider>
                 </entry>
               </file>
@@ -97,38 +204,38 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="goods.styl" pinned="false" current-in-tab="true">
+              <file leaf-file-name="goods.styl" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/elm/src/components/goods/goods.styl">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="296">
-                      <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="mixin.styl" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/elm/src/common/stylus/mixin.styl">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="389">
-                      <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                    <state relative-caret-position="165">
+                      <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
                       <folding>
-                        <marker date="1508092421000" expanded="true" signature="279:437" ph="{...}" />
+                        <element signature="e#722#900#0" expanded="false" />
+                        <element signature="e#1544#1895#0" expanded="false" />
                       </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+              <file leaf-file-name="shopcart.styl" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/src/components/shopcart/shopcart.styl">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="199">
+                      <caret line="87" column="21" lean-forward="false" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="data.json" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/elm/data.json">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-11">
-                      <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+                    <state relative-caret-position="25">
+                      <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
                       <folding>
                         <element signature="n#!!block;n#seller#0;n#!!top" expanded="false" />
                         <element signature="e#965#1401#0" expanded="false" />
                         <element signature="e#1418#1550#0" expanded="false" />
-                        <element signature="e#1641#14773#0" expanded="false" />
                         <element signature="e#1941#2770#0" expanded="false" />
                         <element signature="e#3033#4325#0" expanded="false" />
                         <element signature="e#4337#5636#0" expanded="false" />
@@ -156,24 +263,6 @@
             </leaf>
           </split-second>
         </splitter>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="外卖02_商品页_公告及优惠信息_spec.png" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖02_商品页_公告及优惠信息_spec.png">
-              <provider selected="true" editor-type-id="images">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="外卖01_商品页_spec.png" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖01_商品页_spec.png">
-              <provider selected="true" editor-type-id="images">
-                <state />
-              </provider>
-            </entry>
-          </file>
-        </leaf>
       </split-second>
     </splitter>
   </component>
@@ -187,6 +276,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>api</find>
+      <find>_initScroll</find>
+      <find>red</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,11 +299,14 @@
         <option value="$PROJECT_DIR$/elm/src/components/star/star.vue" />
         <option value="$PROJECT_DIR$/elm/src/components/header/header.vue" />
         <option value="$PROJECT_DIR$/elm/src/components/header/header.styl" />
-        <option value="$PROJECT_DIR$/elm/src/App.vue" />
         <option value="$PROJECT_DIR$/elm/src/components/label/label.vue" />
         <option value="$PROJECT_DIR$/elm/src/common/stylus/mixin.styl" />
-        <option value="$PROJECT_DIR$/elm/src/components/goods/goods.vue" />
+        <option value="$PROJECT_DIR$/elm/src/App.vue" />
+        <option value="$PROJECT_DIR$/elm/src/components/shopcart/shopcart.styl" />
+        <option value="$PROJECT_DIR$/elm/src/components/shopcart/shopcart.vue" />
         <option value="$PROJECT_DIR$/elm/src/components/goods/goods.styl" />
+        <option value="$PROJECT_DIR$/elm/src/components/goods/goods.vue" />
+        <option value="$PROJECT_DIR$/elm/src/components/cartcontrol/cartcontrol.vue" />
       </list>
     </option>
   </component>
@@ -270,8 +364,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,7 +401,7 @@
               <item name="Vue-elm" type="462c0819:PsiDirectoryNode" />
               <item name="elm" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="PSD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Vue-elm" type="b2602c69:ProjectViewProjectNode" />
@@ -350,6 +444,14 @@
               <item name="elm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="cartcontrol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue-elm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-elm" type="462c0819:PsiDirectoryNode" />
+              <item name="elm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="goods" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -359,22 +461,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vue-elm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vue-elm" type="462c0819:PsiDirectoryNode" />
-              <item name="elm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="label" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vue-elm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vue-elm" type="462c0819:PsiDirectoryNode" />
-              <item name="elm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="star" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -391,6 +477,7 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -433,7 +520,8 @@
       <workItem from="1507775287024" duration="277000" />
       <workItem from="1507817803075" duration="11847000" />
       <workItem from="1507911524251" duration="2048000" />
-      <workItem from="1508085396120" duration="8853000" />
+      <workItem from="1508085396120" duration="9142000" />
+      <workItem from="1508122836085" duration="15972000" />
     </task>
     <task id="LOCAL-00001" summary="nav">
       <created>1507548540263</created>
@@ -505,32 +593,39 @@
       <option name="project" value="LOCAL" />
       <updated>1508095374360</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="goods 组件">
+      <created>1508095392599</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1508095392599</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49273000" />
+    <option name="totallyTimeSpent" value="65534000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24909529" sideWeight="0.49232343" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2912553" sideWeight="0.49232343" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38894576" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21351026" sideWeight="0.50767654" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45949215" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21351026" sideWeight="0.50767654" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -569,7 +664,8 @@
     <MESSAGE value="star组件" />
     <MESSAGE value="header 弹层" />
     <MESSAGE value="label组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="label组件" />
+    <MESSAGE value="goods 组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="goods 组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -587,68 +683,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/elm/resource/img/discount_1@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/resource/img/decrease_4@3x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/resource/img/decrease_4@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/resource/外卖02_商品页_公告及优惠信息.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/header/img/special_1@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/header/img/invoice_1@3x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/header/img/invoice_1@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/resource/img/decrease_1@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/header/img/bulletin@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/common/stylus/base.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/resource/img/star24_half@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/resource/img/star36_half@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elm/resource/img/star36_half@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -747,14 +781,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/common/stylus/icon.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elm/build/dev-server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -763,27 +789,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖02_商品页_公告及优惠信息_spec.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖03_商品页_购物车详情_spec.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖04_商品页面_商品详情_spec.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/elm/src/main.js">
@@ -814,48 +822,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/header/header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="100" column="19" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/header/header.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="160" column="10" lean-forward="false" selection-start-line="160" selection-start-column="10" selection-end-line="177" selection-end-column="41" />
-          <folding>
-            <element signature="e#207#316#0" expanded="false" />
-            <element signature="e#401#737#0" expanded="false" />
-            <element signature="e#1892#2582#0" expanded="false" />
-            <element signature="e#2601#2719#0" expanded="false" />
-            <element signature="e#3369#3673#0" expanded="false" />
-            <element signature="e#3882#4422#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/common/stylus/index.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/star/star.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elm/src/components/label/label.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
@@ -874,15 +840,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/components/star/star.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/components/header/header.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="160" column="10" lean-forward="false" selection-start-line="160" selection-start-column="10" selection-end-line="177" selection-end-column="41" />
+          <folding>
+            <element signature="e#207#316#0" expanded="false" />
+            <element signature="e#401#737#0" expanded="false" />
+            <element signature="e#1892#2582#0" expanded="false" />
+            <element signature="e#2601#2719#0" expanded="false" />
+            <element signature="e#3369#3673#0" expanded="false" />
+            <element signature="e#3882#4422#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/resource/外卖04_商品页面_商品详情.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/resource/外卖05_评价页.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/resource/外卖06_商家页.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/resource/外卖03_商品页_购物车详情.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/resource/外卖01_商品页.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/resource/外卖02_商品页_公告及优惠信息.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖06_商家页_spec.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/resource/PSD/外卖06_商家页_spec.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/components/shopcart/shopcart.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="87" column="21" lean-forward="false" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/common/stylus/icon.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖03_商品页_购物车详情_spec.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖02_商品页_公告及优惠信息_spec.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖01_商品页_spec.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/common/stylus/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/components/goods/goods.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+          <folding>
+            <element signature="e#722#900#0" expanded="false" />
+            <element signature="e#1544#1895#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/elm/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        <state relative-caret-position="25">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
           <folding>
             <element signature="n#!!block;n#seller#0;n#!!top" expanded="false" />
             <element signature="e#965#1401#0" expanded="false" />
             <element signature="e#1418#1550#0" expanded="false" />
-            <element signature="e#1641#14773#0" expanded="false" />
             <element signature="e#1941#2770#0" expanded="false" />
             <element signature="e#3033#4325#0" expanded="false" />
             <element signature="e#4337#5636#0" expanded="false" />
@@ -906,29 +992,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/goods/goods.vue">
+    <entry file="file://$PROJECT_DIR$/elm/node_modules/vue/types/vue.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#1428#1475#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/goods/goods.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+        <state relative-caret-position="267">
+          <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖01_商品页_spec.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/elm/src/components/header/header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2067">
+          <caret line="100" column="19" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/components/goods/goods.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#1793#1840#0" expanded="true" />
+            <element signature="e#2059#2111#0" expanded="false" />
+            <element signature="e#2124#2217#0" expanded="false" />
+            <element signature="e#2233#2605#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/components/shopcart/shopcart.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/components/cartcontrol/cartcontrol.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
