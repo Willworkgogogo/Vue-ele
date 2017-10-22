@@ -154,7 +154,8 @@
       'v-cartcontrol': cartcontrol
     },
     events: {
-      'cart.add'(target) {
+      'cart-add'(target) {
+        // 增加商品组件暴露的事件
         this._drop(target);
       }
     }

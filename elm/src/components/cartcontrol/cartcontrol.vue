@@ -33,7 +33,8 @@
           this.food.count++;
         }
 
-        this.$emit('cart.add', event.target);
+        // 向外暴露事件
+        this.$emit('cart-add', event.target);
       },
 
       // 减

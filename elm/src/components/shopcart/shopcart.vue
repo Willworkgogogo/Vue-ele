@@ -19,9 +19,14 @@
     <!--drop ball-->
     <div class="ball-container">
       <div v-for="ball in balls">
-        <div class="ball" v-show="ball.show">
-          <div class="inner"></div>
-        </div>
+        <transition name="drop"
+                    @before-enter="beforeDrop"
+                    @enter="dropping"
+                    @after-enter="afterDrop">
+          <div class="ball" v-show="ball.show">
+            <div class="inner inner-hook"></div>
+          </div>
+        </transition>
       </div>
     </div>
 
