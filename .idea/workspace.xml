@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/cartcontrol/cartcontrol.vue" afterPath="$PROJECT_DIR$/elm/src/components/cartcontrol/cartcontrol.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/goods/goods.vue" afterPath="$PROJECT_DIR$/elm/src/components/goods/goods.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/shopcart/shopcart.vue" afterPath="$PROJECT_DIR$/elm/src/components/shopcart/shopcart.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -478,7 +477,7 @@
       <workItem from="1508684124423" duration="1366000" />
       <workItem from="1508829684940" duration="85000" />
       <workItem from="1510581305049" duration="5026000" />
-      <workItem from="1510674022192" duration="4507000" />
+      <workItem from="1510674022192" duration="4525000" />
     </task>
     <task id="LOCAL-00001" summary="nav">
       <created>1507548540263</created>
@@ -599,11 +598,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510674299596</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="小球">
+      <created>1510678714234</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1510678714234</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81268000" />
+    <option name="totallyTimeSpent" value="81286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
@@ -669,7 +675,8 @@
     <MESSAGE value="food" />
     <MESSAGE value="飞入效果" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="小球" />
+    <option name="LAST_COMMIT_MESSAGE" value="小球" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

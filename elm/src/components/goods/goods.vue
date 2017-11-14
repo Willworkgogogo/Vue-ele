@@ -31,7 +31,7 @@
                   <span class="price-now">￥{{food.price}}</span>
                   <span class="oldPrice" v-show="food.oldPrice">￥{{food.oldPrice}}</span>
                   <div class="cartcontrol-wrapper">
-                    <v-cartcontrol :food="food"></v-cartcontrol>
+                    <v-cartcontrol @add="addFood" :food="food"></v-cartcontrol>
                   </div>
                 </div>
               </div>
@@ -120,8 +120,11 @@
         let el = foodList[index];
         this.foodsScroll.scrollToElement(el, 300);
       },
+      addFood(target) {
+        this._drop(target);
+      },
       _drop(target) {
-        // 异步执行下落动画
+        // 异步执行下落动画, 体验优化
         this.$nextTick(() => {
           this.$refs.shopcart.drop(target);
         });
@@ -154,12 +157,6 @@
       'v-label': label,
       'v-shopcart': shopcart,
       'v-cartcontrol': cartcontrol
-    },
-    events: {
-      'cart-add'(target) {
-        // 增加商品组件暴露的事件
-        this._drop(target);
-      }
     }
   };
 </script>
