@@ -102,7 +102,6 @@
         this.goods.forEach((good) => {
           good.foods.forEach((food) => {
             if (food.count) {
-              console.log(food);
               foods.push(food);
             }
           });
@@ -122,7 +121,10 @@
         this.foodsScroll.scrollToElement(el, 300);
       },
       _drop(target) {
-        this.$refs.shopcart.drop(target);
+        // 异步执行下落动画
+        this.$nextTick(() => {
+          this.$refs.shopcart.drop(target);
+        });
       },
       _initScroll: function() {
         this.menuScroll = new BScroll(this.$refs.menuWrapper, {

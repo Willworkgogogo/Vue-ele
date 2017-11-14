@@ -19,10 +19,10 @@
     <!--drop ball-->
     <div class="ball-container">
       <div v-for="ball in balls">
-        <transition name="drop"
-                    @before-enter="beforeDrop"
-                    @enter="dropping"
-                    @after-enter="afterDrop">
+        <transition name="drop">
+                    <!--@before-enter="beforeDrop"-->
+                    <!--@enter="dropping"-->
+                    <!--@after-enter="afterDrop">-->
           <div class="ball" v-show="ball.show">
             <div class="inner inner-hook"></div>
           </div>
@@ -71,7 +71,9 @@
           {
             show: false
           }
-        ]
+        ],
+        dropBalls: [],
+        fold: true
       };
     },
     computed: {
@@ -116,7 +118,16 @@
     },
     methods: {
       drop(el) {
-        console.log(el);
+        console.log('---', el);
+        for (let i = 0; i < this.balls.length; i++) {
+          let ball = this.balls[i];
+          if (!ball.show) {
+            ball.show = true;
+            ball.el = el;
+            this.dropBalls.push(ball);
+            return;
+          }
+        }
       }
     }
   };

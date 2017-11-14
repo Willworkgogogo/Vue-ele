@@ -25,7 +25,7 @@
     },
     methods: {
       // 添加商品
-      addCart() {
+      addCart(event) {
         if (!this.food.count) {
           // Vue.set 给一个对象添加一个不存在的属性，并赋值
           Vue.set(this.food, 'count', 1);
@@ -34,6 +34,7 @@
         }
 
         // 向外暴露事件
+        console.log('----cartcontrol---', event.target);
         this.$emit('cart-add', event.target);
       },
 
