@@ -32,10 +32,8 @@
         } else {
           this.food.count++;
         }
-
         // 向外暴露事件
-        console.log('----cartcontrol---', event.target);
-        this.$emit('cart-add', event.target);
+        this.$emit('add', event.target);
       },
 
       // 减
