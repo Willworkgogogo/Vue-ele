@@ -1,7 +1,7 @@
 <template>
   <div class="shopcart">
     <div class="content">
-      <div class="content-left">
+      <div class="content-left" @click="toggleList">
         <div class="logo-wrapper">
           <div class="logo" :class="{'highlight': totalCount > 0}">
             <span class="icon-shopping_cart"></span>
@@ -30,10 +30,34 @@
       </div>
     </div>
 
+    <!--shopcart-list-->
+    <transition name="fold">
+      <div class="shopcart-list" v-show="listShow">
+        <div class="list-header">
+          <h1 class="title">购物车</h1>
+          <span class="empty" @click="empty">清空</span>
+        </div>
+        <div class="list-content" ref="listContent">
+          <ul>
+            <li class="food" v-for="food in selectFoods">
+              <span class="name">{{food.name}}</span>
+              <div class="price">
+                <span><i class="icon">￥</i>{{food.price * food.count}}</span>
+              </div>
+              <div class="cartcontrol">
+                <v-cartcontrol @add="addFood" :food="food"></v-cartcontrol>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
+  import cartcontrol from 'components/cartcontrol/cartcontrol';
+  import BScroll from 'better-scroll';
   export default {
     props: {
       selectFoods: {
@@ -73,7 +97,7 @@
           }
         ],
         dropBalls: [],
-        fold: true
+        fold: true // 折叠
       };
     },
     computed: {
@@ -114,6 +138,25 @@
         } else {
           return '';
         }
+      },
+
+      // 显示购物车列表
+      listShow() {
+        if (!this.totalCount) {
+          this.fold = true;
+          return false;
+        }
+        let show = !this.fold;
+        if (show) {
+          this.$nextTick(() => {
+            this.scroll = new BScroll(this.$refs.listContent, {
+              click: true
+            });
+          });
+        } else {
+//          this.scroll.refresh(); // ?
+        }
+        return show;
       }
     },
     methods: {
@@ -143,6 +186,9 @@
         this.selectFoods.forEach((food) => {
           food.count = 0;
         });
+      },
+      addFood(target) {
+        this.drop(target);
       },
       beforeDrop(el) {
         let count = this.balls.length;
@@ -182,6 +228,9 @@
           el.style.display = 'none';
         }
       }
+    },
+    components: {
+      'v-cartcontrol': cartcontrol
     }
   };
 </script>
