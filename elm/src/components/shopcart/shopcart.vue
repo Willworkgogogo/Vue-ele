@@ -19,7 +19,7 @@
     <!--drop ball-->
     <div class="ball-container">
       <div v-for="ball in balls">
-        <transition name="drop">
+        <transition name="drop"
                     @before-enter="beforeDrop"
                     @enter="dropping"
                     @after-enter="afterDrop">
@@ -119,7 +119,6 @@
     methods: {
       drop(el) {
         for (let i = 0; i < this.balls.length; i++) {
-          console.log(this.balls.length);
           let ball = this.balls[i];
           if (!ball.show) {
             ball.show = true;

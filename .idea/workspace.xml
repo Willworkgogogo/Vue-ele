@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bd3d5d40-e3a7-4060-a90e-392aa70e0dbe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/cartcontrol/cartcontrol.vue" afterPath="$PROJECT_DIR$/elm/src/components/cartcontrol/cartcontrol.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/shopcart/shopcart.vue" afterPath="$PROJECT_DIR$/elm/src/components/shopcart/shopcart.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +25,7 @@
           <file leaf-file-name="header.vue" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/elm/src/components/header/header.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
+                <state relative-caret-position="2400">
                   <caret line="100" column="19" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
@@ -58,8 +58,8 @@
           <file leaf-file-name="goods.vue" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/elm/src/components/goods/goods.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="124" column="8" lean-forward="false" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+                <state relative-caret-position="404">
+                  <caret line="128" column="32" lean-forward="false" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
                     <element signature="e#1862#1909#0" expanded="true" />
@@ -79,9 +79,12 @@
           <file leaf-file-name="shopcart.vue" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/elm/src/components/shopcart/shopcart.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="662">
-                  <caret line="127" column="26" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
-                  <folding />
+                <state relative-caret-position="338">
+                  <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#1472#1727#0" expanded="false" />
+                    <element signature="e#2672#4780#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -89,8 +92,8 @@
           <file leaf-file-name="cartcontrol.vue" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/elm/src/components/cartcontrol/cartcontrol.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="292">
-                  <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+                <state relative-caret-position="-207">
+                  <caret line="6" column="17" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
                   <folding>
                     <element signature="e#503#614#0" expanded="false" />
                   </folding>
@@ -214,8 +217,8 @@
               <file leaf-file-name="shopcart.styl" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/elm/src/components/shopcart/shopcart.styl">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="316">
-                      <caret line="100" column="34" lean-forward="false" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+                    <state relative-caret-position="283">
+                      <caret line="100" column="34" lean-forward="true" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
                       <folding>
                         <element signature="e#94#2164#0" expanded="false" />
                       </folding>
@@ -299,10 +302,10 @@
         <option value="$PROJECT_DIR$/elm/src/common/stylus/mixin.styl" />
         <option value="$PROJECT_DIR$/elm/src/App.vue" />
         <option value="$PROJECT_DIR$/elm/src/components/goods/goods.styl" />
-        <option value="$PROJECT_DIR$/elm/src/components/shopcart/shopcart.styl" />
         <option value="$PROJECT_DIR$/elm/src/components/goods/goods.vue" />
         <option value="$PROJECT_DIR$/elm/src/components/cartcontrol/cartcontrol.vue" />
         <option value="$PROJECT_DIR$/elm/src/components/shopcart/shopcart.vue" />
+        <option value="$PROJECT_DIR$/elm/src/components/shopcart/shopcart.styl" />
       </list>
     </option>
   </component>
@@ -361,6 +364,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -414,8 +419,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,7 +479,8 @@
       <workItem from="1508684124423" duration="1366000" />
       <workItem from="1508829684940" duration="85000" />
       <workItem from="1510581305049" duration="5026000" />
-      <workItem from="1510674022192" duration="4536000" />
+      <workItem from="1510674022192" duration="4603000" />
+      <workItem from="1510846593106" duration="2314000" />
     </task>
     <task id="LOCAL-00001" summary="nav">
       <created>1507548540263</created>
@@ -611,11 +615,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510678725972</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="小球">
+      <created>1510678734354</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1510678734354</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81297000" />
+    <option name="totallyTimeSpent" value="83678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
@@ -876,7 +887,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/elm/src/components/header/header.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="2400">
           <caret line="100" column="19" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
@@ -986,16 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/shopcart/shopcart.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="100" column="34" lean-forward="false" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
-          <folding>
-            <element signature="e#94#2164#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elm/resource/标注/外卖01_商品页_spec.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1015,14 +1016,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="1895" column="3" lean-forward="true" selection-start-line="1895" selection-start-column="3" selection-end-line="1895" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/elm/src/components/cartcontrol/cartcontrol.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="-207">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="e#503#614#0" expanded="false" />
           </folding>
@@ -1031,8 +1031,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/elm/src/components/goods/goods.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="124" column="8" lean-forward="false" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+        <state relative-caret-position="404">
+          <caret line="128" column="32" lean-forward="false" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
           <folding>
             <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="e#1862#1909#0" expanded="true" />
@@ -1050,9 +1050,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/elm/src/components/shopcart/shopcart.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="127" column="26" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="338">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#1472#1727#0" expanded="false" />
+            <element signature="e#2672#4780#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/components/shopcart/shopcart.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="100" column="34" lean-forward="true" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+          <folding>
+            <element signature="e#94#2164#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
