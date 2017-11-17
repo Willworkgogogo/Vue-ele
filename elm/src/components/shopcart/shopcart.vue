@@ -100,6 +100,7 @@
         fold: true // 折叠
       };
     },
+    // computed
     computed: {
       // 总价
       totalPrice() {
