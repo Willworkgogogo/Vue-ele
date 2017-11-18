@@ -4,6 +4,7 @@
   bottom: 0
   height: 46px
   width: 100%
+  z-index: 50
   .content
     display: flex
     background: #141d27
@@ -100,7 +101,7 @@
         background: rgb(0, 160, 220)
         transition: all .4s linear
   .shopcart-list
-    position: relative
+    position: absolute
     left: 0
     top: 0
     z-index: -1
@@ -108,7 +109,7 @@
     transform: translate3d(0, -100%, 0)
     &.fold-enter-active, &.fold-leave-active
       transition: all 0.5s
-    &.fold-enter, &fold-leave-active
+    &.fold-enter, &.fold-leave-active
       transform: translate3d(0, 0, 0)
     .list-header
       height: 40px
@@ -127,22 +128,42 @@
         float: right
     .list-content
       padding: 0 18px
-      height: 90px
-      line-height: 90px
+      max-height: 217px
+      background: #fff
+      overflow: hidden
       .food
-        width: 100%
-        background: #fff
-        border-bottom: 1px solid rgba(7, 17, 27, 0.1)
+        position: relative
+        padding:12px 0
+        box-sizing: border-box
+        border-1px(rgba(7, 17, 27, 0.1))
         .name
           font-size: 14px
+          line-height: 24px
           color: rgb(7, 17, 27)
-          float: left
         .price
+          position: absolute
+          right: 90px
+          bottom: 12px
           font-size: 14px
+          line-height: 24px
           font-weight: 700
           color: rgb(240, 20, 20)
-          padding: 0 12px 0 18px
-          .icon
-            font-size: 10px
-            font-weight: normal
-
+        .cartcontrol-wrapper
+          position: absolute
+          right: 0
+          bottom: 12px
+.list-mask
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 40
+  -webkit-backdrop-filter: blur(10px)
+  opacity: 1
+  background: rgba(7, 17, 27, 0.6)
+  &.fade-enter-active, &.fade-leave-active
+    transition: all 0.5s
+  &.fade-enter, &.fade-leave-active
+    opacity: 0
+    background: rgba(7, 17, 27, 0)

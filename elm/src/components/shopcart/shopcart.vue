@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="shopcart">
     <div class="content">
       <div class="content-left" @click="toggleList">
@@ -11,7 +12,7 @@
         <div class="price" :class="{'highlight': totalCount > 0}">￥{{totalPrice}}</div>
         <div class="desc">另需配送费￥{{deliveryPrice}}元</div>
       </div>
-      <div class="content-right">
+      <div class="content-right" @click.stop.prevent="pay">
         <div class="pay" :class="payClass">{{ payDesc }}</div>
       </div>
     </div>
@@ -42,9 +43,9 @@
             <li class="food" v-for="food in selectFoods">
               <span class="name">{{food.name}}</span>
               <div class="price">
-                <span><i class="icon">￥</i>{{food.price * food.count}}</span>
+                <span><span class="icon">￥</span>{{food.price * food.count}}</span>
               </div>
-              <div class="cartcontrol">
+              <div class="cartcontrol-wrapper">
                 <v-cartcontrol @add="addFood" :food="food"></v-cartcontrol>
               </div>
             </li>
@@ -53,6 +54,11 @@
       </div>
     </transition>
   </div>
+
+  <transition name="fade">
+    <div class="list-mask" @click="hideList" v-show="listShow"></div>
+  </transition>
+</div>
 </template>
 
 <script type="text/ecmascript-6">
@@ -191,6 +197,12 @@
       addFood(target) {
         this.drop(target);
       },
+      pay() {
+        if (this.totalPrice < this.minPrice) {
+          return;
+        }
+        window.alert(`支付${this.totalPrice}元`);
+      },
       beforeDrop(el) {
         let count = this.balls.length;
         while (count--) {
@@ -237,5 +249,6 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+  @import '../../common/stylus/mixin.styl';
   @import './shopcart.styl';
 </style>

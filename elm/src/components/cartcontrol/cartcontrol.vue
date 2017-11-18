@@ -15,10 +15,7 @@
   export default {
     props: {
       food: {
-        type: Object,
-        default() {
-          return {count: 10};
-        }
+        type: Object
       }
     },
     created() {
@@ -26,6 +23,9 @@
     methods: {
       // 添加商品
       addCart(event) {
+        if (!event._constructed) {
+          return;
+        }
         if (!this.food.count) {
           // Vue.set 给一个对象添加一个不存在的属性，并赋值
           Vue.set(this.food, 'count', 1);
@@ -38,6 +38,9 @@
 
       // 减
       decreaseCart() {
+        if (!event._constructed) {
+          return;
+        }
         if (this.food.count) {
           this.food.count--;
         }
