@@ -155,13 +155,16 @@
         }
         let show = !this.fold;
         if (show) {
+          // TODO 思考
           this.$nextTick(() => {
-            this.scroll = new BScroll(this.$refs.listContent, {
-              click: true
-            });
+            if (!this.scroll) {
+              this.scroll = new BScroll(this.$refs.listContent, {
+                click: true
+              });
+            } else {
+              this.scroll.refresh();
+            }
           });
-        } else {
-//          this.scroll.refresh(); // ?
         }
         return show;
       }
