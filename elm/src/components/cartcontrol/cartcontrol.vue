@@ -1,12 +1,12 @@
 <template>
   <div class="cartcontrol">
     <transition name="move">
-      <div class="control-decrease" v-show="food.count > 0" @click="decreaseCart">
+      <div class="control-decrease" v-show="food.count > 0" @click.stop.prevent="decreaseCart">
         <span class="inner icon-remove_circle_outline"></span>
       </div>
     </transition>
     <div class="control-count" v-show="food.count > 0">{{ food.count }}</div>
-    <div class="control-add icon-add_circle" @click="addCart"></div>
+    <div class="control-add icon-add_circle" @click.stop.prevent="addCart"></div>
   </div>
 </template>
 
@@ -26,6 +26,8 @@
         if (!event._constructed) {
           return;
         }
+        console.log('++food.name: ', this.food.name);
+        console.log('++food.count: ', this.food.count);
         if (!this.food.count) {
           // Vue.set 给一个对象添加一个不存在的属性，并赋值
           Vue.set(this.food, 'count', 1);
@@ -37,10 +39,12 @@
       },
 
       // 减
-      decreaseCart() {
+      decreaseCart(event) {
         if (!event._constructed) {
           return;
         }
+        console.log('--food.name: ', this.food.name);
+        console.log('--food.count: ', this.food.count);
         if (this.food.count) {
           this.food.count--;
         }
