@@ -22,24 +22,39 @@
           </div>
           <div @click.stop.prevent="addCart" class="buy" v-show="!food.count || food.count === 0">加入购物车</div>
         </div>
-      </div>
 
-      <!--商品介绍-->
-      <split v-show="food.info"></split>
-      <div class="info" v-show="food.info">
-        <h1 class="title">商品介绍</h1>
-        <p class="text">{{food.info}}</p>
-      </div>
+        <!--商品介绍-->
+        <split v-show="food.info"></split>
+        <div class="info" v-show="food.info">
+          <h1 class="title">商品介绍</h1>
+          <p class="text">{{food.info}}</p>
+        </div>
 
-      <!--商品评价-->
-      <split></split>
-      <div class="rating">
-        <h1 class="title">商品评价</h1>
-        <rating-select
-          :select-type="selectType"
-          :only-content="onlyContent"
-          :desc="desc"
-          :ratings="food.ratings"></rating-select>
+        <!--商品评价-->
+        <split></split>
+        <div class="rating">
+          <h1 class="title">商品评价</h1>
+          <rating-select
+            :select-type="selectType"
+            :only-content="onlyContent"
+            :desc="desc"
+            :ratings="food.ratings"></rating-select>
+
+          <div class="rating-wrapper">
+            <ul v-show="food.ratings && food.ratings.length">
+              <li v-for="rating in food.ratings" class="rating-item border-1px">
+                <div class="user">
+                  <span class="name">{{rating.username}}</span>
+                  <img :src="rating.avatar" width="12" height="12" alt="" class="avatar">
+                </div>
+                <div class="time">{{rating.rateTime}}</div>
+                <p class="text">
+                  <span :class="{'icon-thumb_up': rating.rateType === 0, 'icon-thumb_down': rating.rateType == 1}"></span>{{rating.text}}
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </transition>
@@ -114,5 +129,6 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+  @import '../../common/stylus/mixin.styl';
   @import 'food.styl';
 </style>

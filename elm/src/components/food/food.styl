@@ -32,6 +32,7 @@
         font-size: 20px
         color: #fff
   .content
+    position: relative
     padding: 18px
     .title
       font-size: 14px
@@ -67,22 +68,23 @@
         text-decoration: line-through
         .unit
           font-weight: normal
-  .cartcontrol-wrapper
-    position: absolute
-    right: 18px
-    bottom: 18px
-  .buy
-    position: absolute
-    right: 18px
-    bottom: 18px
-    z-index: 10
-    height: 24px
-    line-height: 24px
-    padding: 0 12px
-    font-size: 10px
-    color: #fff
-    background-color: rgb(0, 160, 220)
-    border-radius: 12px
+
+    .cartcontrol-wrapper
+      position: absolute
+      right: 18px
+      bottom: 18px
+    .buy
+      position: absolute
+      right: 18px
+      bottom: 18px
+      z-index: 10
+      height: 24px
+      line-height: 24px
+      padding: 0 12px
+      font-size: 10px
+      color: #fff
+      background-color: rgb(0, 160, 220)
+      border-radius: 12px
   .info
     padding: 18px
     .title
@@ -103,3 +105,40 @@
       line-height: 14px
       margin-left: 18px
       color: rgb(7, 17, 27)
+    .rating-wrapper
+      padding: 0 18px
+      .rating-item
+        position: relative
+        padding: 16px 0
+        border-1px(rgba(7, 17, 27, 0.1))
+        .user
+          position: absolute
+          top: 16px
+          right: 0px
+          line-height: 12px
+          font-size: 0px
+          .name
+            display: inline-block
+            vertical-align: top
+            font-size: 10px
+            color: rgb(147, 153, 159)
+            margin-right: 6px
+          .avatar
+            border-radius: 50%
+        .time
+          font-size: 10px
+          color: rgb(147, 153, 159)
+          line-height: 12px
+          margin-bottom: 6px
+        .text
+          line-height: 16px
+          font-size: 12px
+          color: rgb(7, 17, 27)
+          .icon-thumb_up, .icon-thumb_down
+            line-height: 16px
+            font-size: 12px
+            margin-right: 4px
+          .icon-thumb_up
+            color: rgb(0, 160, 220)
+          .icon-thumb_down
+            color: rgb(147, 153, 159)

@@ -20,7 +20,7 @@
         <span class="count">{{negatives.length}}</span>
       </span>
     </div>
-    <div class="switch">
+    <div @click="toggleContent" class="switch" :class="{on: onlyContent}">
       <span class="icon-check_circle"></span>
       <span class="text">只看有内容的评价</span>
     </div>
@@ -76,12 +76,14 @@
         if (!event._constructed) {
           return;
         }
+        this.selectType = type;
         this.$emit('select', type);
       },
       toggleContent(event) {
         if (!event._constructed) {
           return;
         }
+        this.onlyContent = !this.onlyContent;
         this.$emit('toggle');
       }
     }
@@ -89,5 +91,6 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+  @import '../../common/stylus/mixin.styl';
   @import "./ratingselect.styl";
 </style>
