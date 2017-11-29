@@ -35,7 +35,11 @@
       <split></split>
       <div class="rating">
         <h1 class="title">商品评价</h1>
-        <rating-select></rating-select>
+        <rating-select
+          :select-type="selectType"
+          :only-content="onlyContent"
+          :desc="desc"
+          :ratings="food.ratings"></rating-select>
       </div>
     </div>
   </transition>
@@ -48,6 +52,10 @@
   import split from 'components/split/split';
   import ratingselect from 'components/ratingselect/ratingselect.vue';
 
+  //  const POSITIVE = 0;
+  //  const NEGATIVE = 1;
+  const ALL = 2;
+
   export default {
     props: {
       food: {
@@ -56,13 +64,23 @@
     },
     data() {
       return {
-        showFlag: false
+        showFlag: false,
+        selectType: ALL,
+        onlyContent: true,
+        desc: {
+          all: '全部',
+          positive: '推荐',
+          negative: '吐槽'
+        }
       };
     },
     methods: {
       // 子组件方法可以被父组件调用，父组件方法不允许子组件调用
       show() {
         this.showFlag = true;
+        // 初始化状态
+        this.selectType = ALL;
+        this.onlyContent = true;
         this.$nextTick(() => {
           if (!this.scroll) {
             this.scroll = new BScroll(this.$refs.food, {
