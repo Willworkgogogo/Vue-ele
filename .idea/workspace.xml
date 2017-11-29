@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bd3d5d40-e3a7-4060-a90e-392aa70e0dbe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/food/food.styl" afterPath="$PROJECT_DIR$/elm/src/components/food/food.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/food/food.vue" afterPath="$PROJECT_DIR$/elm/src/components/food/food.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.styl" afterPath="$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.vue" afterPath="$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -601,7 +597,7 @@
       <workItem from="1511021602738" duration="15072000" />
       <workItem from="1511188228870" duration="4047000" />
       <workItem from="1511279656023" duration="204000" />
-      <workItem from="1511882617083" duration="12329000" />
+      <workItem from="1511882617083" duration="12355000" />
     </task>
     <task id="LOCAL-00001" summary="nav">
       <created>1507548540263</created>
@@ -827,11 +823,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511980515056</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="完善评价列表">
+      <created>1511980540601</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1511980540601</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120132000" />
+    <option name="totallyTimeSpent" value="120158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -898,7 +901,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="router" />
     <MESSAGE value="webpack alias" />
     <MESSAGE value="props" />
     <MESSAGE value="header" />
@@ -923,7 +925,8 @@
     <MESSAGE value="split组件" />
     <MESSAGE value="完善food商品详情组件" />
     <MESSAGE value="修改data评价数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改data评价数据" />
+    <MESSAGE value="完善评价列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善评价列表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
