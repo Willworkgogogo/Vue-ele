@@ -15,7 +15,9 @@
             <span class="rating">好评率{{food.rating}}%</span>
           </div>
           <div class="price">
-            <span class="last-price"><span class="unit">￥</span>{{food.price}}</span><span v-show="food.oldPrice" class="old-price"><span class="unit">￥</span>{{food.oldPrice}}</span>
+            <span class="last-price"><span class="unit">￥</span>{{food.price}}</span><span v-show="food.oldPrice"
+                                                                                           class="old-price"><span
+            class="unit">￥</span>{{food.oldPrice}}</span>
           </div>
           <div class="cartcontrol-wrapper">
             <v-cartcontrol @add="addFood" :food="food"></v-cartcontrol>
@@ -45,17 +47,22 @@
 
           <div class="rating-wrapper">
             <ul v-show="food.ratings && food.ratings.length">
-              <li v-show="needShow(rating.rateType, rating.text)" v-for="rating in food.ratings" class="rating-item border-1px">
+              <li v-show="needShow(rating.rateType, rating.text)" v-for="rating in food.ratings"
+                  class="rating-item border-1px">
                 <div class="user">
                   <span class="name">{{rating.username}}</span>
                   <img :src="rating.avatar" width="12" height="12" alt="" class="avatar">
                 </div>
-                <div class="time">{{rating.rateTime}}</div>
+                <div class="time">{{rating.rateTime | formatDate}}</div>
                 <p class="text">
-                  <span :class="{'icon-thumb_up': rating.rateType === 0, 'icon-thumb_down': rating.rateType == 1}"></span>{{rating.text}}
+                  <span
+                    :class="{'icon-thumb_up': rating.rateType === 0, 'icon-thumb_down': rating.rateType == 1}"></span>{{rating.text}}
                 </p>
               </li>
             </ul>
+            <div class="no-rating" v-show="!food.ratings || !food.ratings.length">
+              暂无评价
+            </div>
           </div>
         </div>
       </div>
@@ -69,6 +76,7 @@
   import cartcontrol from 'components/cartcontrol/cartcontrol.vue';
   import split from 'components/split/split';
   import ratingselect from 'components/ratingselect/ratingselect.vue';
+  import {formatDate} from 'common/js/date';
 
   //  const POSITIVE = 0;
   //  const NEGATIVE = 1;
@@ -143,6 +151,12 @@
         this.$nextTick(() => {
           this.scroll.refresh();
         });
+      }
+    },
+    filters: {
+      formatDate(time) {
+        let date = new Date(time);
+        return formatDate(date, 'yyyy-MM-dd hh:mm');
       }
     },
     components: {
