@@ -61,11 +61,11 @@
         &:last-child
           margin-right: 0
         &.on
-          bg-image('./img/star48_on')
+          bg-image('./img/star24_on')
         &.off
-          bg-image('./img/star48_off')
+          bg-image('./img/star24_off')
         &.half
-          bg-image('./img/star48_half')
+          bg-image('./img/star24_half')
     &.star-36
       .star-item
         width: 15px
@@ -75,11 +75,11 @@
         &:last-child
           margin-right: 0
         &.on
-          bg-image('./img/star48_on')
+          bg-image('./img/star36_on')
         &.off
-          bg-image('./img/star48_off')
+          bg-image('./img/star36_off')
         &.half
-          bg-image('./img/star48_half')
+          bg-image('./img/star36_half')
     &.star-48
       .star-item
         width: 20px
