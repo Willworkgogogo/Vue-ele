@@ -30,8 +30,8 @@
       <ratingselect
         @select="selectRating"
         @toggle="toggleContent"
-        :select-type="selectType"
-        :only-content="onlyContent"
+        :selectType="selectType"
+        :onlyContent="onlyContent"
         :ratings="ratings"
         ></ratingselect>
 
@@ -72,6 +72,7 @@
 
   const ALL = 2;
   const ERR_OK = 0;
+  const debug = process.env.NODE_ENV !== 'production';
 
   export default {
     props: {
@@ -111,7 +112,8 @@
       }
     },
     created() {
-      this.$http.get('/api/rating').then((response) => {
+      const url = debug ? '/api/rating' : 'http://ustbhuangyi.com/sell/api/ratings';
+      this.$http.get(url).then((response) => {
         response = response.body;
         if (response.errno === ERR_OK) {
           this.ratings = response.data;

@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bd3d5d40-e3a7-4060-a90e-392aa70e0dbe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/App.vue" afterPath="$PROJECT_DIR$/elm/src/App.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/ratings/ratings.vue" afterPath="$PROJECT_DIR$/elm/src/components/ratings/ratings.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/star/star.vue" afterPath="$PROJECT_DIR$/elm/src/components/star/star.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.vue" afterPath="$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,15 +59,15 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ratings.vue" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ratings.vue" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/elm/src/components/ratings/ratings.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="35">
-                  <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+                <state relative-caret-position="286">
+                  <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                    <element signature="e#2384#2420#0" expanded="true" />
+                    <element signature="e#2382#2418#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -91,6 +92,26 @@
                     <element signature="n#div#2;n#div#0;n#div#0;n#transition#0;n#template#0;n#!!top" expanded="false" />
                     <element signature="e#2759#2781#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ratingselect.styl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.styl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="100">
+                  <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ratingselect.vue" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="761">
+                  <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -175,7 +196,7 @@
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="data.json" pinned="false" current-in-tab="true">
+              <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/elm/data.json">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="-1">
@@ -213,16 +234,16 @@
                 <entry file="file://$PROJECT_DIR$/elm/src/components/ratings/ratings.vue">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="250">
-                      <caret line="271" column="29" lean-forward="false" selection-start-line="271" selection-start-column="29" selection-end-line="271" selection-end-column="29" />
+                      <caret line="273" column="29" lean-forward="false" selection-start-line="273" selection-start-column="29" selection-end-line="273" selection-end-column="29" />
                       <folding>
                         <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
                         <element signature="n#script#0;n#!!top" expanded="false" />
-                        <element signature="e#2384#2420#0" expanded="true" />
-                        <element signature="e#4255#5843#0" expanded="false" />
-                        <element signature="e#4322#4926#0" expanded="false" />
-                        <element signature="e#4957#5843#0" expanded="false" />
-                        <element signature="e#6370#6727#0" expanded="false" />
-                        <element signature="e#6900#7541#0" expanded="false" />
+                        <element signature="e#2382#2418#0" expanded="true" />
+                        <element signature="e#4383#5971#0" expanded="false" />
+                        <element signature="e#4450#5054#0" expanded="false" />
+                        <element signature="e#5085#5971#0" expanded="false" />
+                        <element signature="e#6498#6855#0" expanded="false" />
+                        <element signature="e#7028#7669#0" expanded="false" />
                       </folding>
                     </state>
                   </provider>
@@ -233,6 +254,46 @@
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="0">
                       <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="webpack.prod.conf.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/build/webpack.prod.conf.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="-519">
+                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="webpack.dev.conf.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/build/webpack.dev.conf.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="-575">
+                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="webpack.base.conf.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/elm/build/webpack.base.conf.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="-472">
+                      <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/elm/src/App.vue">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="350">
+                      <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
                       <folding />
                     </state>
                   </provider>
@@ -259,6 +320,8 @@
       <find>toggleList</find>
       <find>listContent</find>
       <find>show</find>
+      <find>seller</find>
+      <find>selectType</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -279,7 +342,6 @@
         <option value="$PROJECT_DIR$/elm/src/components/header/header.styl" />
         <option value="$PROJECT_DIR$/elm/src/components/label/label.vue" />
         <option value="$PROJECT_DIR$/elm/src/common/stylus/mixin.styl" />
-        <option value="$PROJECT_DIR$/elm/src/App.vue" />
         <option value="$PROJECT_DIR$/elm/src/components/goods/goods.styl" />
         <option value="$PROJECT_DIR$/elm/src/components/cartcontrol/cartcontrol.vue" />
         <option value="$PROJECT_DIR$/elm/src/components/shopcart/shopcart.vue" />
@@ -287,14 +349,15 @@
         <option value="$PROJECT_DIR$/elm/src/components/split/split.vue" />
         <option value="$PROJECT_DIR$/elm/src/components/goods/goods.vue" />
         <option value="$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.styl" />
-        <option value="$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.vue" />
         <option value="$PROJECT_DIR$/elm/data.json" />
         <option value="$PROJECT_DIR$/elm/src/components/food/food.styl" />
         <option value="$PROJECT_DIR$/elm/build/webpack.base.conf.js" />
         <option value="$PROJECT_DIR$/elm/src/components/food/food.vue" />
         <option value="$PROJECT_DIR$/elm/src/common/js/date.js" />
         <option value="$PROJECT_DIR$/elm/src/components/star/star.vue" />
+        <option value="$PROJECT_DIR$/elm/src/App.vue" />
         <option value="$PROJECT_DIR$/elm/src/components/ratings/ratings.vue" />
+        <option value="$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.vue" />
       </list>
     </option>
   </component>
@@ -421,6 +484,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Vue-elm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-elm" type="462c0819:PsiDirectoryNode" />
+              <item name="elm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ratingselect" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -495,7 +566,7 @@
       <workItem from="1511021602738" duration="15072000" />
       <workItem from="1511188228870" duration="4047000" />
       <workItem from="1511279656023" duration="204000" />
-      <workItem from="1511882617083" duration="29796000" />
+      <workItem from="1511882617083" duration="31421000" />
     </task>
     <task id="LOCAL-00001" summary="nav">
       <created>1507548540263</created>
@@ -763,11 +834,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512229803711</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="评论列表">
+      <created>1512404564220</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1512404564220</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137599000" />
+    <option name="totallyTimeSpent" value="139224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -834,7 +912,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="star组件" />
     <MESSAGE value="header 弹层" />
     <MESSAGE value="label组件" />
     <MESSAGE value="goods 组件" />
@@ -859,7 +936,8 @@
     <MESSAGE value="日期格式化通用函数" />
     <MESSAGE value="评价页面" />
     <MESSAGE value="修复star组件尺寸样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复star组件尺寸样式" />
+    <MESSAGE value="评论列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="评论列表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -877,13 +955,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/elm/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elm/resource/PSD/外卖06_商家页_spec.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1086,14 +1157,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="86" column="26" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elm/src/components/food/food.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -1107,14 +1170,6 @@
             <element signature="e#1859#2111#0" expanded="false" />
             <element signature="e#2322#3259#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,7 +1203,7 @@
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#2079#2126#0" expanded="true" />
+            <element signature="e#2079#2126#0" expanded="false" />
             <element signature="e#2392#2444#0" expanded="false" />
             <element signature="e#2592#2964#0" expanded="false" />
             <element signature="e#2980#3592#0" expanded="false" />
@@ -1221,30 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elm/build/webpack.prod.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-526">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/build/webpack.dev.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-245">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm/build/webpack.base.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elm/src/common/js/date.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1253,11 +1284,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/main.js">
+    <entry file="file://$PROJECT_DIR$/elm/src/components/food/food.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-1593">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#0;n#transition#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#2759#2781#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1293,26 +1327,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elm/src/components/food/food.vue">
+    <entry file="file://$PROJECT_DIR$/elm/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1593">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="21" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#div#0;n#transition#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#2759#2781#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-519">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-472">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/elm/src/components/ratings/ratings.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="286">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#2384#2420#0" expanded="true" />
+            <element signature="e#2382#2418#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm/src/components/ratingselect/ratingselect.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

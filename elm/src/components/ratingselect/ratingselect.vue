@@ -83,7 +83,7 @@
         if (!event._constructed) {
           return;
         }
-        this.onlyContent = !this.onlyContent;
+//        this.onlyContent = !this.onlyContent;
         this.$emit('toggle');
       }
     }
