@@ -61,14 +61,18 @@
     },
     watch: {
       'seller'() {
-        this._initScroll();
+        this.$nextTick(() => {
+          this._initScroll();
+        });
       }
     },
     created() {
       this.classMap = ['decrease', 'discount', 'special', 'invoice', 'guarantee'];
     },
-    ready() {
-      this._initScroll();
+    mounted() {
+      this.$nextTick(() => {
+        this._initScroll();
+      });
     },
     methods: {
       _initScroll() {

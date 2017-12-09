@@ -117,8 +117,8 @@
           <file leaf-file-name="seller.vue" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/elm/src/components/seller/seller.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="67" column="18" lean-forward="false" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+                <state relative-caret-position="293">
+                  <caret line="71" column="11" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="11" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
                     <element signature="e#1594#1634#0" expanded="true" />
@@ -259,14 +259,14 @@
               <file leaf-file-name="seller.vue" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/elm/src/components/seller/seller.vue">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="196">
-                      <caret line="167" column="32" lean-forward="true" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
+                    <state relative-caret-position="396">
+                      <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
                       <folding>
                         <element signature="e#1594#1634#0" expanded="true" />
-                        <element signature="e#2553#3690#0" expanded="false" />
-                        <element signature="e#3087#3690#0" expanded="false" />
-                        <element signature="e#3753#3851#0" expanded="false" />
-                        <element signature="e#3883#4077#0" expanded="false" />
+                        <element signature="e#2641#3778#0" expanded="false" />
+                        <element signature="e#3175#3778#0" expanded="false" />
+                        <element signature="e#3841#3939#0" expanded="false" />
+                        <element signature="e#3971#4165#0" expanded="false" />
                       </folding>
                     </state>
                   </provider>
@@ -568,7 +568,7 @@
       <workItem from="1511021602738" duration="15072000" />
       <workItem from="1511188228870" duration="4047000" />
       <workItem from="1511279656023" duration="204000" />
-      <workItem from="1511882617083" duration="36335000" />
+      <workItem from="1511882617083" duration="37288000" />
     </task>
     <task id="LOCAL-00001" summary="nav">
       <created>1507548540263</created>
@@ -850,11 +850,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512576110201</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="商家详情">
+      <created>1512668817592</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1512668817592</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144138000" />
+    <option name="totallyTimeSpent" value="145091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -921,7 +928,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="label组件" />
     <MESSAGE value="goods 组件" />
     <MESSAGE value="底部购物车组件shopcart" />
     <MESSAGE value="加减购物控件" />
@@ -946,7 +952,8 @@
     <MESSAGE value="修复star组件尺寸样式" />
     <MESSAGE value="评论列表" />
     <MESSAGE value="修复评论列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复评论列表" />
+    <MESSAGE value="商家详情" />
+    <option name="LAST_COMMIT_MESSAGE" value="商家详情" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1401,8 +1408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/elm/src/components/seller/seller.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="67" column="18" lean-forward="false" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        <state relative-caret-position="293">
+          <caret line="71" column="11" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="11" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="e#1594#1634#0" expanded="true" />
