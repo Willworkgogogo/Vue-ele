@@ -531,7 +531,7 @@
       <workItem from="1511021602738" duration="15072000" />
       <workItem from="1511188228870" duration="4047000" />
       <workItem from="1511279656023" duration="204000" />
-      <workItem from="1511882617083" duration="48124000" />
+      <workItem from="1511882617083" duration="48143000" />
     </task>
     <task id="LOCAL-00001" summary="nav">
       <created>1507548540263</created>
@@ -848,11 +848,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512923893572</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="存取localStorage函数">
+      <created>1512923912541</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1512923912541</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155927000" />
+    <option name="totallyTimeSpent" value="155946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -919,7 +926,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="飞入效果" />
     <MESSAGE value="update" />
     <MESSAGE value="小球" />
     <MESSAGE value="小球动画完成" />
@@ -944,7 +950,8 @@
     <MESSAGE value="图片横向滚动" />
     <MESSAGE value="&quot;收藏&quot;实现" />
     <MESSAGE value="日期格式化函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="日期格式化函数" />
+    <MESSAGE value="存取localStorage函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="存取localStorage函数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
