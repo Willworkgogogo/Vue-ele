@@ -4,7 +4,6 @@
     <list default="true" id="bd3d5d40-e3a7-4060-a90e-392aa70e0dbe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/App.vue" afterPath="$PROJECT_DIR$/elm/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elm/src/components/seller/seller.vue" afterPath="$PROJECT_DIR$/elm/src/components/seller/seller.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -533,7 +532,7 @@
       <workItem from="1511021602738" duration="15072000" />
       <workItem from="1511188228870" duration="4047000" />
       <workItem from="1511279656023" duration="204000" />
-      <workItem from="1511882617083" duration="48044000" />
+      <workItem from="1511882617083" duration="48093000" />
     </task>
     <task id="LOCAL-00001" summary="nav">
       <created>1507548540263</created>
@@ -836,11 +835,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512836980733</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="&quot;收藏&quot;实现">
+      <created>1512923862347</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1512923862347</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155847000" />
+    <option name="totallyTimeSpent" value="155896000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -907,7 +913,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="加减购物控件" />
     <MESSAGE value="food" />
     <MESSAGE value="飞入效果" />
     <MESSAGE value="update" />
@@ -932,7 +937,8 @@
     <MESSAGE value="商家详情" />
     <MESSAGE value="修复商家详情页面滚动" />
     <MESSAGE value="图片横向滚动" />
-    <option name="LAST_COMMIT_MESSAGE" value="图片横向滚动" />
+    <MESSAGE value="&quot;收藏&quot;实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;收藏&quot;实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
