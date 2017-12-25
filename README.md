@@ -4,9 +4,10 @@
 - 2017年10月份完成
 
 ## 开发步骤
-### vue-cli
+### vue-cli的使用
 1. npm install vue-cli
-1. 
+1. vue init webpack vue-elm
+1. cd vue-elm && npm install
 
 
 ### vue-router
